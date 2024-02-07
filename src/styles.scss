@@ -94,3 +94,13 @@ app-root {
   pointer-events: none;
   opacity: 0.5;
 }
+
+input[type="text"],
+select {
+  width: 100%;
+  padding: 5px 5px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
